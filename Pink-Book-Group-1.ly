@@ -2,7 +2,6 @@
 \include "articulate.ly"
 
 \header {
-  dedication = "To my family"
   title = "Dozen-A-Day Pink Mini Book"
   subtitle = "Technical Exercises for the Piano"
   subsubtitle = "Group I"
@@ -141,6 +140,7 @@ https://lilypond.org/doc/v2.20/Documentation/notation/using-repeats-with-midi
       indent = 0\cm
     }
   }
+
 
   %%MIDI SCORE
   \score {
