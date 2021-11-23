@@ -2,10 +2,9 @@
 \include "articulate.ly"
 
 \header {
-  title = "Dozen-A-Day Pink Mini Book"
+  title = "Dozen-A-Day Pink Mini Book - Group I"
   subtitle = "Technical Exercises for the Piano"
-  subsubtitle = "Group I"
-  instrument = "Piano"
+  %subsubtitle = "Group I"
   composer = "Edna Mae Burnham"
 }
 
