@@ -89,6 +89,9 @@ right = \relative c' {
       \time 4/4
       g2-5^"12. Fit As A Fiddle And Ready To Go" e4 c4 | r1 | f2 e4 d4 | c1
     }
+    \addlyrics \with {alignBelowContext = "right"}{
+      Read -- y to   mu -- sic I know 
+    }
   }
 
   left = \relative c' {
@@ -167,6 +170,9 @@ right = \relative c' {
     %Twelve
     \repeat volta 2 {
       r1 | g'2 g4 g4 | r1 |  r1 
+    }
+    \addlyrics \with {alignAboveContext = "left"}{
+       go, Play -- ing 
     }
   }
 
