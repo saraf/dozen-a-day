@@ -64,16 +64,12 @@ right = \relative c' {
     \repeat volta 2 { 
       \time 4/4
       r4^"8. Cartwheels" c4-1 e4 g4| 
-      \hideStaffSwitch
-      \change Staff = "left"
+      \once\voiceTwo
       R1  
-      \change Staff = "right"
       |  
       r4 c,4 e4 g4 | 
-
-      \change Staff = "left"
+      \once\voiceTwo
       r2 
-      \change Staff = "right"
       c,2^"R.H." | R1 
     }
 
@@ -97,19 +93,16 @@ right = \relative c' {
     %Five
     \repeat volta 2 { 
       r1 | r1 | r1 | c,1
-      %c'4_1 b4_2 a4_3 | g4_1 a4_3 b4_2 | c2._1 | c2.  
     }
 
     %Six
     \repeat volta 2 { 
       r1 | r1 | r1 | c1
-      %c'4_1 b4_2 a4_3 | g4_1 a4_3 b4_2 | c2._1 | c2.  
     }
 
     %Seven
     \repeat volta 2 { 
       r1 | r1 | r1 | r1
-      %c4_1 b4_2 a4_3 g4_1 | c,1_5| c'4_1 b4_2 a4_3 g4_1 | c1
     }
 
     %Eight
@@ -119,7 +112,7 @@ right = \relative c' {
       \showStaffSwitch
       c4_5 r4 r2 
       \change Staff = "right"
-      c''1_2
+      c''1^2
       \hideStaffSwitch
       \change Staff = "left"
       |  
