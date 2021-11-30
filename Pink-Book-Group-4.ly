@@ -104,7 +104,7 @@ right = \relative c' {
       \change Staff = "right"
       |  
       r4 c,4 e4 g4 | 
-      s2 c2-\tweak parent-alignment-X #CENTER ^\markup\smaller\smaller\italic\center-align "R.H." | R1 \bar "|."
+      s2 c,2-\tweak parent-alignment-X #CENTER ^\markup\smaller\smaller\italic\center-align "R.H." | R1 \bar "|."
     }
 
     \break
@@ -112,7 +112,7 @@ right = \relative c' {
       \time 4/4
       \tieDown
       \mark \markup \small "9. Leapfrog"
-      <c, e g>~ | <c e g> | <c e g>~ | <c e g> | <c e g> 
+      <c e g>~ | <c e g> | <c e g>~ | <c e g> | <c e g>
     }
     \break
 
