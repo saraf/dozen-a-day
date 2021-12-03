@@ -188,10 +188,10 @@ right = \relative c' {
     \repeat volta 2 { 
       %  warning: maybe input should specify polyphonic voices
       %  warning: cannot have note heads and rests together on a stem
-      _\markup \teeny "Hold Middle C down while playing other notes in measure." 
-      << {c1^1} {r4 a4_3 a4 a4}>> | 
-      << {c1^1} {r4 g4_4 g4 g4}>> | 
-      << {c1^1} {r4 f,4_5 f4 f4}>> | 
+      
+      << {c1^1_\markup \teeny "Hold Middle C down while playing other notes in measure." } \\ {r4 a4_3 a4 a4}>> | 
+      << {c1^1} \\ {r4 g4_4 g4 g4}>> | 
+      << {c1^1} \\ {r4 f,4_5 f4 f4}>> | 
       c'2_1 c,2_5
       %{
       \new Voice = "longc" 
