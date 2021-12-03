@@ -47,7 +47,7 @@ global = {
 right = \relative c' {
     \global
     \repeat volta 2 {c4-1^"1. Walking On A Sunny Day" d4-2 e4 f4 | g4 f4 e4 d4 | c2 r2 | c1 }
-    \repeat volta 2 {c4-1^"1. Walking On A Cloudy Day" d4-2 ees4-3 f4-4 | g4 f4 ees4 d4 | c2 r2 | c1 }
+    \repeat volta 2 {c4-1^"2. Walking On A Cloudy Day" d4-2 ees4-3 f4-4 | g4 f4 ees4 d4 | c2 r2 | c1 }
 
     \break
     \repeat volta 2 {c4-1^"3. Skipping On A Sunny Day" e4 c4 e4 | c4 e4 g2 | r1 | r1} 
@@ -65,7 +65,6 @@ right = \relative c' {
 
     \repeat volta 2 {
       \time 4/4
-      %c4-1^"6. Deep Breathing On A Cloudy Day" d4-2 e4-3| f4-1 e4-3 d4-2 | c2.-1 |  c2. 
       c4-1^"6. Deep Breathing On A Cloudy Day" ees4-3 g2 | <c, ees g> 1 | <c ees g> 2 4 4 | <c ees g> 1
     }
 
